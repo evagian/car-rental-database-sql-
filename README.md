@@ -14,33 +14,33 @@ Use SQL Workbench to create the tables and insert a few records into the tables 
 
 ![alt text](https://github.com/evagian/car-rental-database-sql-/blob/master/images/car-db.png)
 
-Now answer the following 
+Now answer to the following 
 
 Query A
-a.	Show the reservation number and the location ID of all rentals in 5/20/2015 
+Show the reservation number and the location ID of all rentals in 5/20/2015 
 
 Query B
-b.	Show the first and the last name and the mobile phone number of those customers that have rented a car in the category that has label = 'luxury' 
+Show the first and the last name and the mobile phone number of those customers that have rented a car in the category that has label = 'luxury' 
 
 Query C
-c.	Show the total amount of rentals per location ID (pick up) 
+Show the total amount of rentals per location ID (pick up) 
 
 Query D
-d.	Show the total amount of rentals per car's category ID and month 
+Show the total amount of rentals per car's category ID and month 
 
 Query E
-e.	For each rental’s state (pick up) show the top renting category 
+For each rental’s state (pick up) show the top renting category 
 
 Query F
-f.	Show how many rentals there were in May 2015 in ‘NY’, ‘NJ’ and ‘CA’ (in three columns) 
+Show how many rentals there were in May 2015 in ‘NY’, ‘NJ’ and ‘CA’ (in three columns) 
 
 Query G
-g.	For each month of 2015, count how many rentals had amount greater than this month's average rental amount 
+For each month of 2015, count how many rentals had amount greater than this month's average rental amount 
 
 Query H
-h.	For each month of 2015, show the percentage change of the total amount of rentals over the total amount of rentals of the same month of 2014 
+For each month of 2015, show the percentage change of the total amount of rentals over the total amount of rentals of the same month of 2014 
 
 Query I
-i.	For each month of 2015, show in three columns: the total rentals’ amount of the previous months, the total rentals’ amount of this month and the total rentals’ amount of the following months 
+For each month of 2015, show in three columns: the total rentals’ amount of the previous months, the total rentals’ amount of this month and the total rentals’ amount of the following months 
 
 
