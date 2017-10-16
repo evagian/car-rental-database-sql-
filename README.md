@@ -7,12 +7,12 @@ CRC's fleet consists of cars of different types. A car is described via a unique
 Entity-Relationship Diagram (ERD) 
 Use the Entity-Relationship Diagram (ERD) to model entities, relationships, attributes, cardinalities, and all necessary constraints. Use any tool you like to draw the ERD. 
 
-![alt text](https://github.com/evagian/car-rental-database-sql-/blob/master/images/car-er.png)
+![alt text](https://github.com/evagian/car-rental-database-sql-/tree/master/images/car-er.png)
 
 Database Diagram
 Use SQL Workbench to create the tables and insert a few records into the tables to test your queries below. You will have to hand in the CREATE TABLE statements. 
 
-![alt text](https://github.com/evagian/car-rental-database-sql-/blob/master/images/car-db.png)
+![alt text](https://github.com/evagian/car-rental-database-sql-/tree/master/images/car-db.png)
 
 Now answer to the following 
 
