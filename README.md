@@ -65,20 +65,21 @@ group by state;
 ##Query F
 Show how many rentals there were in May 2015 in ‘NY’, ‘NJ’ and ‘CA’ (in three columns) 
 
+```sql
 create view transpose as
 select o.state, count(r.reservationID) as rentals
 from reservation as r, CRC_office as o
 where r.pickupLocationID=o.locationID and (o.state="NY" or o.state="NJ" or o.state="CA") and extract(year from r.pickupDate)=2015 and extract(month from r.pickupDate)=5
 group by o.state; 
-
+```
 #drop view transpose;
-
+```
 select 
   sum(if(state = 'NY', rentals, 0)) AS 'NY', 
   sum(if(state = 'NJ', rentals, 0)) AS 'NJ', 
   sum(if(state = 'CA', rentals, 0)) AS 'CA'
         from transpose;
-
+```
 ##Query G
 For each month of 2015, count how many rentals had amount greater than this month's average rental amount 
 g.v1 For each month of 2015, count how many rentals had amount greater than - this - month's average rental amount
